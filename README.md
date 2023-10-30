@@ -28,7 +28,8 @@ As input to the program, you need to give the following:
   stopping_criteria     Stopping criteria (value iteration stops when bellman residue is less than this value
 
   generate_problem_statement If this flag is set, the program will generate a problem statement in the current directory (set true by default)
-    solve_using_value_iteration If this flag is set, the program will solve the problem using value iteration (set false by default)
+
+  solve_using_value_iteration If this flag is set, the program will solve the problem using value iteration (set false by default)
 ```
 
 Example usage:
