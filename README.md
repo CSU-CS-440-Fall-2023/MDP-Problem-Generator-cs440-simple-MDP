@@ -37,9 +37,9 @@ Example usage:
 ```
 To generate a problem statement
 
-python grid_gen.py --grid_size 5 --goal_x 4 --goal_y 4 --deadend_x 1 --deadend_y 1 --slipping_probability 0.01 --discount_factor 0.99 --stopping_threshold 0.01 --generate_problem_statement
+python gen_grid_basic..py --grid_size 5 --goal_x 4 --goal_y 4 --deadend_x 1 --deadend_y 1 --slipping_probability 0.01 --discount_factor 0.99 --stopping_threshold 0.01 --generate_problem_statement
 
 To solve the problem using value iteration
 
-python grid_gen.py --grid_size 5 --goal_x 4 --goal_y 4 --deadend_x 1 --deadend_y 1 --slipping_probability 0.01 --discount_factor 0.99 --stopping_threshold 0.01 --solve_using_value_iteration
+python gen_grid_basic..py --grid_size 5 --goal_x 4 --goal_y 4 --deadend_x 1 --deadend_y 1 --slipping_probability 0.01 --discount_factor 0.99 --stopping_threshold 0.01 --solve_using_value_iteration
 ```
